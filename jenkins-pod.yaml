@@ -2,8 +2,14 @@ apiVersion: v1
 kind: Pod
 spec:
   containers:
-  - name: shell
+  - name: shell16
     image: ubuntu:16.04
+    command:
+    - sleep
+    args:
+    - infinity
+  - name: shell18
+    image: ubuntu:18.04
     command:
     - sleep
     args:
