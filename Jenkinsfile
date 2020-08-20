@@ -15,7 +15,7 @@ pipeline {
             // container('shell') {
             //     sh 'hostname'
             // }
-            defaultContainer 'shell'
+            defaultContainer 'shell18'
         }
     }
     stages {
